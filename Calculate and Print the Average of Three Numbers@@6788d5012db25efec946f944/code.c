@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    float a,b,c,Average;
+    float a,b,c,Average,total;
     printf("");
     scanf("%f",a);
     printf("");
