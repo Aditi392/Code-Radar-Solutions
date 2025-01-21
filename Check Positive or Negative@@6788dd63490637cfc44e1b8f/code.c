@@ -9,4 +9,5 @@ int main()
     printf("Zero");
     else
     printf("Negative");
+    return 0;
 }
