@@ -9,4 +9,5 @@ int main()
     printf("%d",num2);
     else
     printf("");
+    return 0;
 }
