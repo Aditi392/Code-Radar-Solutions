@@ -3,9 +3,9 @@ int main()
 {
     int num1,num2;
     scanf("%d%d",&num1,&num2);
-    if(a>b)
+    if(num1>num2)
     printf("");
-    else if(b>a)
+    else if(num2>num1)
     printf("");
     else
     printf("");
