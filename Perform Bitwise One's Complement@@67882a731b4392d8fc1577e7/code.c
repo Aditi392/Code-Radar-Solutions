@@ -2,8 +2,8 @@
 
 int main() {
     int a, n;
-    scanf("%d", &a);
+    scanf("%f", &a);
         a = ~n;
-    printf("%d",a);
+    printf("%f",a);
     return 0;
 }
