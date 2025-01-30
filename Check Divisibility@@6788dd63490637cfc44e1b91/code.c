@@ -9,6 +9,6 @@ int main()
      }
      else
      {
-     ptintf("Not Divisible");
+     printf("Not Divisible");
      }
 }
