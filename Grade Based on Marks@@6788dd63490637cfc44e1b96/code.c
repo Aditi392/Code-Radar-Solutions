@@ -4,13 +4,13 @@ int main()
     int a;
     scanf("%d",&a);
     if(a>=90)
-    {printf("A");}
+    {printf("A\n");}
     else if(a>=80&&a<90)
-    {printf("B");}
+    {printf("B\n");}
     else if(a>=70&&a<80)
-    {printf("C");}
+    {printf("C\n");}
     else if(a>=60&&a<70)
-    {prinf("D");}
+    {prinf("D\n");}
     else(a<60)
-    {printf("F");}
+    {printf("F\n");}
 }
