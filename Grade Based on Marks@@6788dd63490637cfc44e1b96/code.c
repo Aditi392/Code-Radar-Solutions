@@ -11,6 +11,8 @@ int main()
     {printf("C\n");}
     else if(a>=60&&a<70)
     {prinf("D\n");}
-    else(a<60)
+    else if(a<60)
     {printf("F\n");}
+    else
+    {printf("");}
 }
