@@ -15,11 +15,9 @@ int main()
     else if(a>=60&&a<70)
     {
     prinf("D\n");}
-    else if(a<60)
+    else 
     {
     printf("F\n");}
-    else
-    {
-    printf(" ");}
+   
     return 0;
 }
