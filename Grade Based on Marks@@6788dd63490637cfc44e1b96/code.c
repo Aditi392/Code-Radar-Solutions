@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    char c;
-    scanf("%c",&c);
+    int a;
+    scanf("%d",&a);
     if(a>=90)
     {
     printf("A\n");}
@@ -20,6 +20,6 @@ int main()
     printf("F\n");}
     else
     {
-    printf("");}
+    printf(" ");}
     return 0;
 }
