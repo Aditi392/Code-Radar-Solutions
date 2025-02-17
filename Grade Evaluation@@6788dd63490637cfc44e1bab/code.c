@@ -3,15 +3,15 @@ int main()
 {
     char ch;
     scanf("%c",&c);
-    if(ch=='A')
+    if(ch==A)
     printf("Excellent");
-    else if(ch=='B')
+    else if(ch==B)
     printf("Good");
-    else if(ch=='C')
+    else if(ch==C)
     printf("Average");
-    else if(ch=='D')
+    else if(ch==D)
     printf("Below Average");
-    else if(ch=='E')
+    else if(ch==E)
     printf("Fail");
     else 
     printf("Invalud grade");
