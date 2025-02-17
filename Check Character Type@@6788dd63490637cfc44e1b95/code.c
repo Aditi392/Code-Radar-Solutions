@@ -14,4 +14,3 @@ int main()
         }
         else 
         {printf("Special character");}
-}
