@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    char x;
+    char ch;
     scanf("%c",&c);
-    if(x=='A')
+    if(ch=='A')
     printf("Excellent");
-    else if(x=='B')
+    else if(ch=='B')
     printf("Good");
-    else if("x=='C")
+    else if(ch=='C')
     printf("Average");
-    else if(x=='D')
+    else if(ch=='D')
     printf("Below Average");
-    else if(c=='E')
+    else if(ch=='E')
     printf("Fail");
     else 
     printf("Invalud grade");
