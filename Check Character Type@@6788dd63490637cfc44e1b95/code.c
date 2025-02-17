@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int ch ;
+    char ch ;
     scanf("%c",&ch);
     if(ch>='0' && ch<='9'){
         {printf("Digit");}
