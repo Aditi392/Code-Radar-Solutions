@@ -6,17 +6,17 @@ int main()
     scanf("%d%d%c",&a,&b,&c);
     switch(c){
         case '+':
-        printf("%d+%d=%d",a,b,a+b);
+        printf("%d",a+b);
         break;
         case '-':
-        printf("%d-%d=%d",a,b,a-b);
+        printf("%d",a-b);
         break;
         case '*':
-        printf("%d*%d=%d",a,b,a*b);
+        printf("%d",a*b);
         break;
         case '/':
         if(a2!=0)
-       { printf("%d/%d=%d",a,b,a/b);}
+       { printf("%d",a/b);}
         else 
        { printf("error");}
         break;
