@@ -20,9 +20,7 @@ int main()
         else 
        { printf("");}
         break;
-        default:
-        printf("");
-        break;
+        
         
     }
 }
