@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a
+    int a;
     scanf("%d",&a);
     switch(a){
     case 1:
