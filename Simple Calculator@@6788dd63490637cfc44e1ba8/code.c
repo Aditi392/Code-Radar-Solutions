@@ -6,17 +6,19 @@ int main()
     scanf("%d%d%c",&a,&b,&c);
     switch(c){
         case +:
-        printf("%d",a+b);
+        printf("%d+%d",a,b,a+b);
         break;
         case -:
-        printf("%d",a-b);
+        printf("%d-%d",a,b,a-b);
         break;
         case *:
-        
-        printf("%d",a*b);
+        printf("%d*%d",a,b,a*b);
         break;
         case /:
-        printf("%d",a/b);
+        if(a%2!=0)
+        printf("%d/%d",a,b,a/b);
+        else 
+        printf("Divide By Zero");
         break;
     }
 }
