@@ -5,16 +5,16 @@ int main()
     char c;
     scanf("%d%d%c",&a,&b,&c);
     switch(c){
-        case +:
+        case '+':
         printf("%d+%d=%d",a,b,a+b);
         break;
-        case -:
+        case '-':
         printf("%d-%d=%d",a,b,a-b);
         break;
-        case *:
+        case '*':
         printf("%d*%d=%d",a,b,a*b);
         break;
-        case /:
+        case '/':
         if(a%2!=0)
         printf("%d/%d=%d",a,b,a/b);
         else 
