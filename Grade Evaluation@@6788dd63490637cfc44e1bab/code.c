@@ -14,6 +14,6 @@ int main()
     else if(ch == 'F')
     printf("Fail");
     else 
-    printf("Invalud grade");
+    printf("InvalId grade");
 
 }
