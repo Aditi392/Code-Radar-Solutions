@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main(){
 char ch ;
     scanf("%c",&ch);
     if(ch>='0' && ch<='9'){
@@ -13,3 +13,4 @@ char ch ;
         }
         else
         {printf("Special Character");}
+        return 0;}
