@@ -6,4 +6,5 @@ int main()
     scanf("%u",&num);
     int trailing_zeros=__builtin_clz(num);
     printf("%d\n",trailing_zeros);
+    return 0;
 }
