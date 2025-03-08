@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    unsigned int num;
+    scanf("%u",&num);
+    int startes = 0;
+    if(num==0){
+        printf("0");
+
+    }
+    int result = 0;
+    int count=0;
+    while(num>0){
+        result=result*10+(num%2);
+        num=num/2;
+        count++;
+    }
+    while(count>0)
+    {
+        printf("%d",result%10);
+        result=result/10;
+        count--;
+    }
+    pritf("\n");
+
+
+
+
+
+
+
+}
