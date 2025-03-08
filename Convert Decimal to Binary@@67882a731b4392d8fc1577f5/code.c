@@ -21,7 +21,7 @@ int main()
         result=result/10;
         count--;
     }
-    pritf("\n");
+    printf("\n");
 
 
 
