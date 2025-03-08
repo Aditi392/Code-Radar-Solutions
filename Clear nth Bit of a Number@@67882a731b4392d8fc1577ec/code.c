@@ -3,6 +3,7 @@ int main()
 {
     int num,n;
     scanf("%d %d",&num,&n);
-    printf("%d",(num>>n)&1);
+    num=num&~(1<<n);
+    printf("%d",num);
     return 0;
 }
