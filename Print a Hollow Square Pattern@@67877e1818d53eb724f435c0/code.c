@@ -11,7 +11,7 @@ int main()
          if(i==1||i==n||j==1||j==m)
          printf("*");
          else
-         printf("");
+         printf(" ");
         }
      printf("\n");
     }
