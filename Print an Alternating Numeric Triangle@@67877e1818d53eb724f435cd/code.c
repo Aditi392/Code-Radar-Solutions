@@ -11,7 +11,7 @@ for(int i=1;i<=n;i++){
     for(int j=1;j<=i;j++){
         if(a%2==0) a=1;
         else a=0;
-          printf("%d",a);
+          printf("%d ",a);
     }
     
     printf("\n");
