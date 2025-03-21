@@ -18,9 +18,10 @@ for(int i=1;i<=n;i++){
     {nsp--;
     nst+=2;
     }
-    else{
-        nsp++;
-        nst-=2;
+    else
+    {
+    nsp++;
+    nst-=2;
     }
     printf("\n");
 }
