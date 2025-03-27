@@ -12,7 +12,7 @@ for(int i=1;i<=n;i++){
         printf(" ");
     }
     for(int k=1;k<=nst;k++){
-        printf("*");
+        printf("%d ",j);
     }
     if(i<middleline)
     {nsp--;
