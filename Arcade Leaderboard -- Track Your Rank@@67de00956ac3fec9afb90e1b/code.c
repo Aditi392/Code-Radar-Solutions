@@ -11,7 +11,7 @@ int main()
     for(int i=0;i<m;i++)
     scanf("%d",&player[i]);
     int result[200000];
-    trackplayerRanks(ranked, n,player,m,result);
+    int trackplayerRanks(ranked, n,player,m,result);
     for(int i=0;i<m;i++)
     printf("%d\n",result[i]);
 }
