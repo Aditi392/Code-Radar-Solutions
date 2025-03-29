@@ -7,7 +7,7 @@ void findDuplicates(int arr[], int size) {
     for (int i = 0; i < size - 1; i++) {
         for (int j = i + 1; j < size; j++) {
             if (arr[i] == arr[j]) {
-                printf("%d ", arr[i]);
+                printf("%d", arr[i]);
                 found = 1;
                 break; // Stop checking further duplicates of the same number
             }
@@ -15,7 +15,7 @@ void findDuplicates(int arr[], int size) {
     }
 
     if (!found) {
-        printf(" ");
+        printf("");
     }
     
 }
@@ -24,7 +24,7 @@ int main() {
     int size;
 
     // Get array size from user
-    printf(" ");
+    printf("");
     scanf("%d", &size);
 
     int arr[size];
