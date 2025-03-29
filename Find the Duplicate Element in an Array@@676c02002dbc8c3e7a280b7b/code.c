@@ -17,7 +17,7 @@ void findDuplicates(int arr[], int size) {
     if (!found) {
         printf(" ");
     }
-    printf("\n");
+    
 }
 
 int main() {
