@@ -22,7 +22,7 @@ void findMinDifference(int arr[], int size) {
         }
     }
 
-    printf("(%d, %d)\n", num1, num2);
+    printf("%d %d\n", num2, num1);
 
 }
 
