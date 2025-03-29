@@ -43,7 +43,9 @@ int main() {
     int peak = findFirstPeak(arr, size);
     if (peak != -1) {
         printf("%d\n", peak);
-    } else {
+    } else if(peak==-1)
+    {printf("%d\n",peak);} 
+    else {
         printf("\n");
     }
 
