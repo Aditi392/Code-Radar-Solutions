@@ -3,7 +3,7 @@
 
 void findMinDifference(int arr[], int size) {
     if (size < 2) {
-        printf("\n");
+        printf("");
         return;
     }
 
