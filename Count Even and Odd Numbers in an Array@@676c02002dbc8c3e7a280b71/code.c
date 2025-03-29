@@ -13,8 +13,8 @@ void countEvenOdd(int arr[], int size) {
     }
 
     // Print the results
-    printf("%d\n", evenCount);
-    printf("%d\n", oddCount);
+    printf("%d %d\n", evenCount,oddcount);
+    
 }
 
 int main() {
