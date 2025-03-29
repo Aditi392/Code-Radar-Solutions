@@ -27,7 +27,7 @@ int main() {
     int arr[size];
 
     // Input array elements
-    printf(" ", size);
+    printf("", size);
     for (int i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
     }
