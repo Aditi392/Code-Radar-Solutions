@@ -3,7 +3,7 @@
 void findDuplicates(int arr[], int size) {
     int found = 0; // Flag to check if duplicates exist
 
-    printf(" ");
+    printf("");
     for (int i = 0; i < size - 1; i++) {
         for (int j = i + 1; j < size; j++) {
             if (arr[i] == arr[j]) {
