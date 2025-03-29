@@ -17,8 +17,9 @@ int main() {
 
     
 
+    leftRotate(arr, size, rotations);
 
-    printf("");
+    printf("Array after left rotation: ");
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
     }
