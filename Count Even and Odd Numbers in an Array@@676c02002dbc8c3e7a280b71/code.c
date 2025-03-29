@@ -21,7 +21,7 @@ int main() {
     int size;
 
     // Get array size from user
-    printf(" ");
+    printf("");
     scanf("%d", &size);
 
     int arr[size];
