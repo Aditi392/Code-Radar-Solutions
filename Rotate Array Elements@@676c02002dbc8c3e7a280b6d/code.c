@@ -1,20 +1,30 @@
-#include<stdio.h>
-void reverse(int arr[])
-{
-    int i;
-    int j;
-    while(i<=j)
-    int temp = arr[i];
-    arr[i]=arr[j];
-    arr[j]=temp;
-    i++;
-    j++;
-}
-int main()
-{
-    int arr={};
-    reverse(arr);
-    for(int i=0;i<=;i++){
-        printf("%d\n",arr[i]);
+#include <stdio.h>
+
+void leftRotate(int arr[], int size, int rotations) {
+    for (int r = 0; r < rotations; r++) {
+        int first = arr[0]; // Store first element
+        for (int i = 0; i < size - 1; i++) {
+            arr[i] = arr[i + 1]; // Shift left
+        }
+        arr[size - 1] = first; // Move first element to end
     }
+}
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int rotations;
+
+    printf("Enter the number of rotations: ");
+    scanf("%d", &rotations);
+
+    leftRotate(arr, size, rotations);
+
+    printf("Array after left rotation: ");
+    for (int i = 0; i < size; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    printf("\n");
+    return 0;
 }
