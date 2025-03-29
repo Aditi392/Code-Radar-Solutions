@@ -11,16 +11,14 @@ void leftRotate(int arr[], int size, int rotations) {
 }
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 5};
+    int arr[] = {};
     int size = sizeof(arr) / sizeof(arr[0]);
     int rotations;
 
-    printf("Enter the number of rotations: ");
-    scanf("%d", &rotations);
+    
 
-    leftRotate(arr, size, rotations);
 
-    printf("Array after left rotation: ");
+    printf("");
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
     }
