@@ -29,7 +29,7 @@ int main() {
     if (isSorted(arr, size)) {
         printf("Sorted\n");
     } else {
-        printf("NOT Sorted\n");
+        printf("Not Sorted\n");
     }
 
     return 0;
