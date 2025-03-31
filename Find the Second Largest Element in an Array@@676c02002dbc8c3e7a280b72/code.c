@@ -9,7 +9,7 @@ void findSecondLargest(int arr[], int size) {
         if (arr[i] > largest) {
             secondLargest = largest; // Update second largest
             largest = arr[i]; // Update largest
-        } else if  {
+        } else  {
             secondLargest = arr[i]; // Update second largest
         }
     }
