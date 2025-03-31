@@ -1,19 +1,20 @@
 #include<stdio.h>
 int main()
 {    
-    int reverse;
+   
     int n;
-    prinf("");
+    prinf(" ");
     scanf("%d",n);
     int arr[n];
-    printf("", n);
+    printf(" ", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
     int k;
-    printf("");
+    printf(" ");
     scanf("%d", &k);
     k=k%n;
+    int reverse;
     reverse(arr,0,n-1);
     reverse(arr,0,k-1);
     reverse(arr,k,n-1);
